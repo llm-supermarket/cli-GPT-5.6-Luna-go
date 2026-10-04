@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/llm-supermarket/cli-GPT-5.6-Luna-go/releases/download/v0.1.0/cli-GPT-5.6-Luna-go_0.1.0_windows_amd64.zip",
-      "hash": "REPLACE_WITH_RELEASE_SHA256"
+      "hash": "7fb728e0cd94cf6dda9677547b253811110a37335a0eb1475218ee75ae8bd1a2"
     }
   },
   "bin": "cli-GPT-5.6-Luna-go.exe",
