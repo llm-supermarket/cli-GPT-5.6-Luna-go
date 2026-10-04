@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "description": "Encrypt and decrypt files using rclone crypt defaults",
+  "homepage": "https://github.com/llm-supermarket/cli-GPT-5.6-Luna-go",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/llm-supermarket/cli-GPT-5.6-Luna-go/releases/download/v0.1.0/cli-GPT-5.6-Luna-go_0.1.0_windows_amd64.zip",
+      "hash": "REPLACE_WITH_RELEASE_SHA256"
+    }
+  },
+  "bin": "cli-GPT-5.6-Luna-go.exe",
+  "checkver": {
+    "github": "https://github.com/llm-supermarket/cli-GPT-5.6-Luna-go"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/llm-supermarket/cli-GPT-5.6-Luna-go/releases/download/v$version/cli-GPT-5.6-Luna-go_$version_windows_amd64.zip"
+      }
+    }
+  }
+}

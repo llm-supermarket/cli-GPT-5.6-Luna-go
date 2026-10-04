@@ -1,0 +1,17 @@
+version: 2
+project_name: cli-GPT-5.6-Luna-go
+builds:
+  - main: ./cmd/cli-GPT-5.6-Luna-go
+    binary: cli-GPT-5.6-Luna-go
+    goos: [windows, darwin, linux]
+    goarch: [amd64, arm64]
+archives:
+  - formats: [tar.gz]
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+  - formats: [zip]
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    format_overrides:
+      - goos: windows
+        formats: [zip]
+checksum:
+  name_template: checksums.txt
